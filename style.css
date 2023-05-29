@@ -1,0 +1,87 @@
+body{
+    align-items: center;
+    background: rgb(248, 68, 248);
+    background: linear-gradient(rgb(248, 39, 248),rgb(54, 87, 236));
+background-attachment: fixed;
+margin: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+#form {
+    
+    border-radius: 7px;
+    width: 350px;
+margin: 0px;
+    background-color: white;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+
+h1{
+    text-shadow:10px linear-gradient(rgb(90, 60, 255),rgb(224, 9, 196));
+    text-align: center;
+    color: rgb(145, 57, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 30px;
+}
+
+
+
+#form button{
+    
+    background-color: rgb(105, 67, 245);
+    color: rgb(239, 238, 240);
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    
+    
+    
+}
+
+.input-group{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(0, 136, 248);
+}
+
+
+.input-group input:focus{
+    outline: 0px;
+}
+
+.input-group .error{
+    color: rgb(235, 27, 27);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group .success input{
+    border-color: rgb(9, 56, 9);
+}
+
+
+.input-group .error input{
+    border-color: red;
+}
+
+
